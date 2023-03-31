@@ -1,0 +1,13 @@
+.singleBlog{
+    border: 1px solid red;
+
+
+}
+.person-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+/* .bookmark-icon{
+    width: 100px;
+} */

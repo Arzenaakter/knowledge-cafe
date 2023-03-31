@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import SingleBlog from '../SingleBlog/SingleBlog';
 import './Blogs.css';
 
 const Blogs = () => {
@@ -14,8 +15,11 @@ const Blogs = () => {
     }
     ,[])
     return (
-        <div>
-         {blogs.map(blog=>console.log(blog))}
+        <div >
+         {blogs.map(blog=><SingleBlog
+         key ={blog.id}
+          blog={blog}
+         ></SingleBlog>)}
         </div>
     );
 };

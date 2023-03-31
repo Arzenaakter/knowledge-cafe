@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
      <Header></Header>
-     <div className='main-container d-md-flex flex-md-row flex-sm-column mt-4 '>
+     <div className='main-container d-md-flex flex-md-row flex-sm-column mt-4 container'>
         <div className='blogs-container col-md-8 '>
           <Blogs></Blogs>
 
