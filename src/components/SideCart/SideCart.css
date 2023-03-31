@@ -1,0 +1,13 @@
+.spent-time-store{
+    background-color: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 5px;
+    color: #6047EC;
+
+}
+.bookmarked-store{
+    background-color: rgba(17, 17, 17, 0.05);
+    border: 2px solid rgba(15, 15, 15, 0.05);
+    border-radius: 5px;
+    color: #111111;
+}
