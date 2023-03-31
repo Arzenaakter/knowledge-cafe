@@ -23,6 +23,11 @@ const SingleBlog = ({blog}) => {
 
                 </div>
             </div>
+            <div className='text-start'>
+            <h2 className=' w-75'>{title}</h2>
+            <p className=' '>#beginners  #programming</p>
+            <button className='btn btn-link fw-bold'>Mark as read</button>
+            </div>
             
             
         </div>
