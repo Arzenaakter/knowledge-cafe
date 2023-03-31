@@ -9,20 +9,12 @@ import SideCart from './components/SideCart/SideCart';
 import { useState } from 'react';
 
 function App() {
-  const [title, setTile] = useState('')
+  const [bookmarks, setBookmarks] = useState([]);
 
-  const handleBookmark =(title)=>{
-    const initileTile = ' ';
-    if(initileTile){
-      // setTile(title)
-     console.log(title);
-
-
-    }
-    else{
-        
-     console.log('false');
-    }
+  const handleBookmark =(blog)=>{
+    const newblog = [...bookmarks,blog]
+     
+    setBookmarks(newblog);
     
   }
   
@@ -36,7 +28,7 @@ function App() {
 
         </div>
         <div className='sidecart-container col-md-4'>
-          <SideCart></SideCart>
+          <SideCart bookmarks={bookmarks}></SideCart>
 
         </div>
      </div>

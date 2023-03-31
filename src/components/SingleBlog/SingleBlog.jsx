@@ -19,7 +19,7 @@ const SingleBlog = ({blog,handleBookmark}) => {
                 </div>
                 <div className='d-flex justify-content-center align-items-center  gap-2  mb-4'>
                     <p className='px-2'>{time} min read</p>
-                    <button onClick={()=>handleBookmark(title)} className='btn btn-outline-dark '><FontAwesomeIcon  icon={faBookmark} /></button>
+                    <button onClick={()=>handleBookmark(blog)} className='btn btn-outline-dark '><FontAwesomeIcon  icon={faBookmark} /></button>
 
                 </div>
             </div>
