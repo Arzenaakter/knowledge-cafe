@@ -3,7 +3,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
-const SingleBlog = ({blog,handleBookmark}) => {
+const SingleBlog = ({blog,handleBookmark,handleTime}) => {
     const {id, authorName, coverPicture,date,personPicture,time,title } = blog;
     return (
         <div className='singleBlog mb-4'>
@@ -26,7 +26,7 @@ const SingleBlog = ({blog,handleBookmark}) => {
             <div className='text-start'>
             <h2 className=' w-75'>{title}</h2>
             <p className=' '>#beginners  #programming</p>
-            <button className='btn btn-link fw-bold'>Mark as read</button>
+            <button className='btn btn-link fw-bold' onClick={()=>handleTime(time)}>Mark as read</button>
             </div>
             
             

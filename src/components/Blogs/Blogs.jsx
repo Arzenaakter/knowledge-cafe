@@ -4,7 +4,8 @@ import { useEffect } from 'react';
 import SingleBlog from '../SingleBlog/SingleBlog';
 import './Blogs.css';
 
-const Blogs = ({handleBookmark}) => {
+const Blogs = ({handleBookmark,handleTime}) => {
+    // console.log('grom blog',handleTime);
     const [blogs,setBlogs] = useState([]);
     useEffect(()=>{
         fetch('data.json')
@@ -20,6 +21,7 @@ const Blogs = ({handleBookmark}) => {
          key ={blog.id}
           blog={blog}
           handleBookmark={handleBookmark}
+          handleTime ={handleTime}
          ></SingleBlog>)}
         </div>
     );
