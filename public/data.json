@@ -1,0 +1,39 @@
+[
+    {
+      "id": "64266a40cebe3806f74d7b2e",
+      "time": "5 min",
+      "date": "Mar 14 (14 days) ",
+      "coverPicture": "https://img.freepik.com/free-photo/programmer-scanning-screen-his-smartwatch-with-smartphone-camera_1098-18710.jpg?w=740&t=st=1680237823~exp=1680238423~hmac=0d4ccf178753cf16cb0faa3da012840677c0a19a663b9e4ff5d387661640a973",
+      "personPicture": "https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBlcnNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "title": "How to get your first job as a self-taught programmer",
+      "authorName": "Joyce Kirby"
+    },
+    {
+      "id": "64266a40322d36f5f4418aaf",
+      "time": "5 min",
+      "date": "Mar 14 (14 days) ",
+      "coverPicture": "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=740&t=st=1680239767~exp=1680240367~hmac=a3aef92c35e8d3f2e0edf38ecdfb3861034eefb0e6c977cdef27658fa4d528bf",
+      "personPicture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "title": "How to get your first job as a self-taught programmer",
+      "authorName": "Cline Norton"
+    },
+    {
+      "id": "64266a4028df0c8ab149d794",
+      "time": "15 min",
+      "date": "Mar 14 (14 days) ",
+      "coverPicture": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=740&t=st=1680239878~exp=1680240478~hmac=196eb3c9902d26b4b79e3e9b8cc1bad684ed8ac65d910d934997ba11c3cbcf46",
+      "personPicture": "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "title": "How to get your first job as a self-taught programmer",
+      "authorName": "Trevino Lamb"
+    },
+    {
+      "id": "64266a408c77709bcddaf22e",
+      "time": "15 min",
+      "date": "Mar 14 (14 days) ",
+      "coverPicture": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "personPicture": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "title": "How to get your first job as a self-taught programmer",
+      "authorName": "Workman Dyer"
+    }
+    
+  ]
