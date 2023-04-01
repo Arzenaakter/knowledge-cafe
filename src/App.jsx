@@ -15,12 +15,25 @@ function App() {
   const [bookmarks, setBookmarks] = useState([]);
   const [times, setTimes] = useState([]);
 
-  function handleBookmark(blog) {
-    const newblog = [...bookmarks, blog];
 
-    setBookmarks(newblog);
+// for bookmark button
+    
+  function handleBookmark(blog) {
+    // console.log(blog);
+  
+    const existBookMark = bookmarks.find(bookMarkObj => bookMarkObj.id == blog.id);
+    if(existBookMark){
+      setBookmarks([...bookmarks, blog]);
+    toast.info("You Have Already Bookmarked This Blog", { theme: "colored" ,position: "top-right",autoClose: 2000});
+    }else{
+    
+    setBookmarks([...bookmarks, blog]);
+    }
+   
   }
 
+
+  // for spent time button 
   const handleTime = (blog) => {
     const newTime = [...times, blog];
 

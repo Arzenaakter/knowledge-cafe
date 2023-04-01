@@ -2,14 +2,15 @@ import React from 'react';
 import './SideCart.css';
 
 const SideCart = ({bookmarks , times} ) => {
-    console.log('time',times);
+   
    let totalTime = 0;
    for ( const singleBlog of times){
     totalTime = totalTime + singleBlog.time;
-        console.log(totalTime);
+        // console.log(totalTime);
    }
 
-    // console.log(bookmarks);
+
+    
     return (
         <div>
             <div className='spent-time-store py-3 '>
