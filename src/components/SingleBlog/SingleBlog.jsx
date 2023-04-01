@@ -26,7 +26,7 @@ const SingleBlog = ({blog,handleBookmark,handleTime}) => {
             <div className='text-start'>
             <h2 className=' w-75'>{title}</h2>
             <p className=' '>#beginners  #programming</p>
-            <button className='btn btn-link fw-bold' onClick={()=>handleTime(time)}>Mark as read</button>
+            <button className='btn btn-link fw-bold' onClick={()=>handleTime(blog)}>Mark as read</button>
             </div>
             
             
