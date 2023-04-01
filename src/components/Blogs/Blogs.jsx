@@ -5,7 +5,7 @@ import SingleBlog from '../SingleBlog/SingleBlog';
 import './Blogs.css';
 
 const Blogs = ({handleBookmark,handleTime}) => {
-    // console.log('grom blog',handleTime);
+   
     const [blogs,setBlogs] = useState([]);
     useEffect(()=>{
         fetch('data.json')

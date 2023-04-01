@@ -8,7 +8,7 @@ const Header = () => {
           <nav className="navbar container navbar-expand-lg bg-body-tertiary  pt-4 border-bottom">
                 <div className="container d-flex justify-content-between   ">
                     <div className=''>
-                    <a className="navbar-brand fw-bold" href="#">Knowledge Cafe</a>
+                    <a className="navbar-brand fw-bold fs-2" href="#">Knowledge Cafe</a>
                     </div>
                 
                     
